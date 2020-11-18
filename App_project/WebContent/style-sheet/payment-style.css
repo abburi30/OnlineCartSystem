@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
+
+.contain {
+	margin-top:25px;	
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+@media (min-width: 600px) {
+  .contain {
+    padding: 0;
+  }
+}
+
+h3,
+ul {
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: 3px solid gold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  
+}
+
+.wrapper {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.wrapper > * {
+  padding: 1em;
+}
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .wrapper > * {
+    padding: 2em 2em;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts {
+  background: #4b5195;
+  color: #fff;
+}
+
+.form {
+  background: #fff;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+form label {
+  display: block;
+}
+form p {
+  margin: 0;
+}
+
+.full-width {
+  grid-column: 1 / 3;
+}
+
+button,
+input,
+textarea {
+  padding: 1em;
+}
+
+button {
+  background: lightgrey;
+  width: 100%;
+  border: 0;
+}
+button:hover, button:focus {
+  background: gold;
+  outline: 0;
+}
+#tq	{
+margin-left: 400px;
+    margin-top: 100px;	
+}
+h4{
+	font-family: cursive;
+	color:#c91043;
+	margin-left:600px;
+}
+#logoutbtn1{
+	float: right;
+    margin-top: -70px;
+}
+#payment-fot{
+	width:100%;
+	margin-top: 180px;
+}
+#eil{
+	    width: 70%;
+}
+#fn{
+	    width: 70%;
+}
+#mn{
+	    width: 70%;
+}
+#al{
+	    width: 70%;
+}
+#zc{
+	    width: 70%;
+}
+#st{
+	    width: 70%;
+}
+#nca{
+	    width: 70%;
+}
+#ccno{
+	    width: 70%;
+}
+#mnt{
+	    width: 70%;
+}
+#ey{
+	    width: 70%;
+}
+#cvv{
+	    width: 70%;
+}
